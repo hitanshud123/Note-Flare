@@ -6,7 +6,9 @@
 
 📄 **Documentation**: [View Docs](https://docs.google.com/document/d/1klQAu_OcDM3JoZ8sKqTwY08J0XTG5LNn91t-yFUTNIw/edit?tab=t.0)
 
-**Video**: https://drive.google.com/file/d/18O9UPlZOQWhUSioVIEEwQGGxFHQLUezH/view?usp=sharing
+🎥 **Demo Video**: https://drive.google.com/file/d/18O9UPlZOQWhUSioVIEEwQGGxFHQLUezH/view?usp=sharing
+
+
 ---
 
 ## How to Run Locally
