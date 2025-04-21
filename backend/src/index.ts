@@ -32,6 +32,10 @@ const server = app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
 
+app.get("/healthz", (req, res) => {
+  res.status(200).send("OK");
+});
+
 // WebSocket
 server.on("upgrade", (request, socket, head) => {
   wss.handleUpgrade(request, socket, head, (ws: WebSocket) => {
