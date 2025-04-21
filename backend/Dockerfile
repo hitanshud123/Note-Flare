@@ -18,4 +18,4 @@ RUN npx prisma generate
 EXPOSE 5001
 
 # Command to run the application with nodemon
-CMD ["sh", "-c", "if [ \"$NODE_ENV\" = \"production\" ]; then node dist/index.js; else nodemon src/index.ts; fi"] 
+CMD ["sh", "-c", "if [ \"$NODE_ENV\" = \"production\" ]; then npm run build && npm start; else npm run dev; fi"] 
