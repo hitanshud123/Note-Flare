@@ -17,7 +17,8 @@ export const authMiddleware = (
   next: NextFunction,
 ): void => {
   const token = req.cookies.token || req.headers.authorization?.split(" ")[1];
-
+  console.log(token);
+  console.log(JWT_SECRET);
   if (!token || !JWT_SECRET) {
     res.status(401).json({ message: "Authentication required" });
     return;
