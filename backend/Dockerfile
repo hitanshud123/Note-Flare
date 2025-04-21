@@ -13,6 +13,7 @@ COPY . .
 
 # Generate Prisma Client
 RUN npx prisma generate
+RUN npx prisma migrate dev --name init
 
 # Expose the port the app runs on
 EXPOSE 5001
